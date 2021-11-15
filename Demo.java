@@ -2,10 +2,15 @@ import java.util.*;
 public class Demo{
 	
 	int a,b,c;
+	float m,n,o;
 	
 	public Integer add(int a, int b){
 		c=a+b;
 		return c;		
+	}
+	public float add(int a, float m){
+		o=a+m;
+		return o;		
 	}
 	public Integer sub(int a, int b){
 		c=b-a;
@@ -28,6 +33,7 @@ public class Demo{
 	public static void main(String[] args){
 		
 		int x,y,z;
+		float p,q,r;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter A value");
 		x=sc.nextInt();
@@ -37,6 +43,9 @@ public class Demo{
 		Demo d=new Demo();
 		z=d.add(x,y);
 		System.out.println("addtion of two number is:- " + z);
+		
+		r=d.add(x,p);
+		System.out.println("addtion of two number is:- " + r);
 		
 		z=d.sub(x,y);
 		System.out.println("substraction of two number is:- " + z);
