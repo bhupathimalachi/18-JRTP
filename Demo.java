@@ -59,6 +59,9 @@ public class Demo{
 		z=d.mod(x,y);
 		System.out.println("division of two number is:- " + z);
 		
+		
+		System.out.println(" ******* the program is ended ******");
+		
 	}
 	
 	
